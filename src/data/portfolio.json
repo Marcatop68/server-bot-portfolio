@@ -1,0 +1,135 @@
+
+{
+  "personal": {
+    "name": "Your Name",
+    "title": "Full Stack Developer",
+    "subtitle": "Minecraft Server • Linux • Discord Bots",
+    "bio": "Passionate developer specializing in Minecraft server development, Linux system administration, and Discord bot creation. I love building robust, scalable solutions that bring communities together.",
+    "location": "Your Location",
+    "email": "your.email@example.com",
+    "github": "https://github.com/yourusername",
+    "discord": "YourDiscord#1234",
+    "linkedin": "https://linkedin.com/in/yourusername"
+  },
+  "skills": {
+    "minecraft": [
+      "Spigot/Paper Plugin Development",
+      "Bukkit API",
+      "Server Configuration & Optimization",
+      "Custom Game Modes",
+      "Economy Systems",
+      "Permission Management",
+      "Database Integration",
+      "Server Networking"
+    ],
+    "linux": [
+      "System Administration",
+      "Shell Scripting (Bash/Zsh)",
+      "Process Management",
+      "Network Configuration",
+      "Security Hardening",
+      "Package Management",
+      "Cron Jobs & Automation",
+      "Docker & Containerization"
+    ],
+    "discord": [
+      "Discord.js/Discord.py",
+      "Slash Commands",
+      "Bot Hosting & Deployment",
+      "Database Integration",
+      "API Integrations",
+      "Moderation Systems",
+      "Custom Embeds",
+      "Voice Channel Management"
+    ],
+    "general": [
+      "Java",
+      "Python",
+      "JavaScript/TypeScript",
+      "MySQL/PostgreSQL",
+      "Git Version Control",
+      "REST APIs",
+      "JSON/YAML Configuration"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Survival Economy Server",
+      "category": "minecraft",
+      "description": "A complete survival Minecraft server with custom economy, shops, and player trading systems.",
+      "technologies": ["Java", "Spigot", "MySQL", "Vault API"],
+      "features": [
+        "Custom economy system with multiple currencies",
+        "Player-to-player trading interface",
+        "Automated shop system",
+        "Land claiming and protection"
+      ],
+      "github": "https://github.com/yourusername/survival-economy",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "title": "Discord Moderation Bot",
+      "category": "discord",
+      "description": "Advanced moderation bot with auto-moderation, logging, and community management features.",
+      "technologies": ["Discord.js", "Node.js", "MongoDB", "Express"],
+      "features": [
+        "Auto-moderation with customizable filters",
+        "Comprehensive logging system",
+        "Role management and permissions",
+        "Custom command system"
+      ],
+      "github": "https://github.com/yourusername/moderation-bot",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "title": "Server Management Scripts",
+      "category": "linux",
+      "description": "Collection of Bash scripts for automated server management and maintenance.",
+      "technologies": ["Bash", "Cron", "systemd", "Docker"],
+      "features": [
+        "Automated backup systems",
+        "Server monitoring and alerts",
+        "Log rotation and cleanup",
+        "Service management utilities"
+      ],
+      "github": "https://github.com/yourusername/server-scripts",
+      "status": "Maintained"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Minecraft Server Developer",
+      "company": "Your Server Network",
+      "period": "2022 - Present",
+      "description": "Lead developer for a network of Minecraft servers with 1000+ daily players.",
+      "achievements": [
+        "Developed custom plugins serving 10,000+ players",
+        "Optimized server performance reducing lag by 60%",
+        "Implemented anti-cheat systems",
+        "Created automated deployment pipeline"
+      ]
+    },
+    {
+      "title": "Linux System Administrator",
+      "company": "Your Company",
+      "period": "2021 - Present",
+      "description": "Managing and maintaining Linux-based infrastructure for game servers.",
+      "achievements": [
+        "Maintained 99.9% uptime across 20+ servers",
+        "Automated deployment processes",
+        "Implemented security best practices",
+        "Reduced server costs by 30% through optimization"
+      ]
+    }
+  ],
+  "theme": {
+    "primaryColor": "blue",
+    "accentColor": "green",
+    "showGitHubContributions": true,
+    "showContactForm": true,
+    "enableDarkMode": true
+  }
+}
