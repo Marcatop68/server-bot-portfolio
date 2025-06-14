@@ -99,6 +99,53 @@
       "status": "Maintained"
     }
   ],
+  "workedServers": [
+    {
+      "id": 1,
+      "name": "HyperCraft Network",
+      "logo": "/path/to/hypercraft-logo.png",
+      "role": "Lead Developer",
+      "period": "2023 - Present",
+      "playerCount": "5000+",
+      "description": "Large survival and creative server network with custom plugins and game modes.",
+      "technologies": ["Java", "Spigot", "Redis", "MySQL"],
+      "achievements": [
+        "Developed anti-grief system reducing incidents by 80%",
+        "Created custom economy plugin handling 10k+ daily transactions",
+        "Optimized server performance for 1000+ concurrent players"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "PixelRealms",
+      "logo": "/path/to/pixelrealms-logo.png",
+      "role": "Plugin Developer",
+      "period": "2022 - 2023",
+      "playerCount": "2000+",
+      "description": "Fantasy RPG Minecraft server with custom quests and progression systems.",
+      "technologies": ["Java", "Paper", "MongoDB", "Citizens API"],
+      "achievements": [
+        "Built comprehensive quest system with 200+ unique quests",
+        "Implemented custom skill progression affecting 50+ abilities",
+        "Created dungeon system with procedural generation"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "TechCraft Studios",
+      "logo": "/path/to/techcraft-logo.png",
+      "role": "System Administrator",
+      "period": "2021 - 2022",
+      "playerCount": "1500+",
+      "description": "Technical Minecraft server focused on redstone engineering and automation.",
+      "technologies": ["Java", "Spigot", "Docker", "Grafana"],
+      "achievements": [
+        "Maintained 99.8% uptime across multiple server instances",
+        "Implemented automated backup system with 30-day retention",
+        "Set up monitoring dashboard tracking 20+ server metrics"
+      ]
+    }
+  ],
   "experience": [
     {
       "title": "Senior Minecraft Server Developer",
