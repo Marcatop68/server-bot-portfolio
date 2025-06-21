@@ -5,52 +5,138 @@
     "title": "Full Stack Developer",
     "subtitle": "Minecraft Server • Linux • Discord Bots",
     "bio": "Passionate developer specializing in Minecraft server development, Linux system administration, and Discord bot creation. I love building robust, scalable solutions that bring communities together.",
+    "tagline": "Building the future, one line of code at a time",
     "location": "Your Location",
+    "timezone": "UTC-5",
+    "availability": "Available for freelance and full-time opportunities",
+    "yearsOfExperience": 5,
+    "profileImage": "/path/to/your-photo.jpg",
+    "resume": "/path/to/your-resume.pdf"
+  },
+  "contact": {
     "email": "your.email@example.com",
+    "phone": "+1 (555) 123-4567",
+    "website": "https://yourwebsite.com",
+    "portfolio": "https://portfolio.yourwebsite.com"
+  },
+  "social": {
     "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "twitter": "https://twitter.com/yourusername",
     "discord": "YourDiscord#1234",
-    "linkedin": "https://linkedin.com/in/yourusername"
+    "instagram": "https://instagram.com/yourusername",
+    "youtube": "https://youtube.com/@yourusername",
+    "twitch": "https://twitch.tv/yourusername",
+    "stackoverflow": "https://stackoverflow.com/users/youruser",
+    "dev": "https://dev.to/yourusername",
+    "medium": "https://medium.com/@yourusername"
   },
   "skills": {
-    "minecraft": [
-      "Spigot/Paper Plugin Development",
-      "Bukkit API",
-      "Server Configuration & Optimization",
-      "Custom Game Modes",
-      "Economy Systems",
-      "Permission Management",
-      "Database Integration",
-      "Server Networking"
-    ],
-    "linux": [
-      "System Administration",
-      "Shell Scripting (Bash/Zsh)",
-      "Process Management",
-      "Network Configuration",
-      "Security Hardening",
-      "Package Management",
-      "Cron Jobs & Automation",
-      "Docker & Containerization"
-    ],
-    "discord": [
-      "Discord.js/Discord.py",
-      "Slash Commands",
-      "Bot Hosting & Deployment",
-      "Database Integration",
-      "API Integrations",
-      "Moderation Systems",
-      "Custom Embeds",
-      "Voice Channel Management"
-    ],
-    "general": [
-      "Java",
-      "Python",
-      "JavaScript/TypeScript",
-      "MySQL/PostgreSQL",
-      "Git Version Control",
-      "REST APIs",
-      "JSON/YAML Configuration"
-    ]
+    "minecraft": {
+      "title": "Minecraft Development",
+      "icon": "server",
+      "level": "Expert",
+      "yearsOfExperience": 5,
+      "technologies": [
+        "Spigot/Paper Plugin Development",
+        "Bukkit API",
+        "Server Configuration & Optimization",
+        "Custom Game Modes",
+        "Economy Systems",
+        "Permission Management",
+        "Database Integration",
+        "Server Networking",
+        "WorldEdit/WorldGuard",
+        "Citizens NPC",
+        "PlaceholderAPI",
+        "ProtocolLib"
+      ]
+    },
+    "linux": {
+      "title": "Linux Administration",
+      "icon": "terminal",
+      "level": "Advanced",
+      "yearsOfExperience": 4,
+      "technologies": [
+        "System Administration",
+        "Shell Scripting (Bash/Zsh)",
+        "Process Management",
+        "Network Configuration",
+        "Security Hardening",
+        "Package Management",
+        "Cron Jobs & Automation",
+        "Docker & Containerization",
+        "Nginx/Apache",
+        "Firewall Configuration",
+        "Log Management",
+        "Performance Monitoring"
+      ]
+    },
+    "discord": {
+      "title": "Discord Bot Development",
+      "icon": "bot",
+      "level": "Expert",
+      "yearsOfExperience": 3,
+      "technologies": [
+        "Discord.js/Discord.py",
+        "Slash Commands",
+        "Bot Hosting & Deployment",
+        "Database Integration",
+        "API Integrations",
+        "Moderation Systems",
+        "Custom Embeds",
+        "Voice Channel Management",
+        "Webhook Integration",
+        "OAuth2 Implementation"
+      ]
+    },
+    "programming": {
+      "title": "Programming Languages",
+      "icon": "code",
+      "level": "Advanced",
+      "yearsOfExperience": 6,
+      "technologies": [
+        "Java",
+        "Python",
+        "JavaScript/TypeScript",
+        "C++",
+        "Go",
+        "Rust",
+        "PHP",
+        "HTML/CSS",
+        "SQL"
+      ]
+    },
+    "databases": {
+      "title": "Database Management",
+      "icon": "database",
+      "level": "Intermediate",
+      "yearsOfExperience": 3,
+      "technologies": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Elasticsearch"
+      ]
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "icon": "cloud",
+      "level": "Intermediate",
+      "yearsOfExperience": 2,
+      "technologies": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Google Cloud",
+        "CI/CD Pipelines",
+        "Terraform",
+        "Ansible",
+        "Jenkins"
+      ]
+    }
   },
   "projects": [
     {
@@ -58,45 +144,82 @@
       "title": "Survival Economy Server",
       "category": "minecraft",
       "description": "A complete survival Minecraft server with custom economy, shops, and player trading systems.",
-      "technologies": ["Java", "Spigot", "MySQL", "Vault API"],
+      "longDescription": "This project involved creating a comprehensive survival Minecraft server from scratch, featuring a complex economy system with multiple currencies, automated shops, player-to-player trading interfaces, and advanced land claiming mechanics. The server supports over 1000 concurrent players.",
+      "technologies": ["Java", "Spigot", "MySQL", "Vault API", "PlaceholderAPI"],
       "features": [
         "Custom economy system with multiple currencies",
         "Player-to-player trading interface",
         "Automated shop system",
-        "Land claiming and protection"
+        "Land claiming and protection",
+        "Custom enchantments",
+        "Auction house system",
+        "Guild management",
+        "Quest system"
       ],
       "github": "https://github.com/yourusername/survival-economy",
-      "status": "Active"
+      "demo": "https://demo.yourserver.com",
+      "documentation": "https://docs.yourserver.com",
+      "status": "Active",
+      "startDate": "2023-01-15",
+      "endDate": null,
+      "teamSize": 3,
+      "role": "Lead Developer",
+      "images": [
+        "/path/to/project1-screenshot1.jpg",
+        "/path/to/project1-screenshot2.jpg"
+      ],
+      "videoDemo": "https://youtube.com/watch?v=demo1",
+      "challenges": [
+        "Optimizing database queries for high player count",
+        "Implementing anti-duplication measures",
+        "Creating intuitive user interfaces"
+      ],
+      "achievements": [
+        "Reduced server lag by 60%",
+        "Handled 10,000+ daily transactions",
+        "Maintained 99.8% uptime"
+      ]
     },
     {
       "id": 2,
       "title": "Discord Moderation Bot",
       "category": "discord",
       "description": "Advanced moderation bot with auto-moderation, logging, and community management features.",
-      "technologies": ["Discord.js", "Node.js", "MongoDB", "Express"],
+      "longDescription": "A comprehensive Discord moderation bot built with Discord.js, featuring advanced auto-moderation capabilities, detailed logging systems, role management, and custom command frameworks. Used across 500+ Discord servers.",
+      "technologies": ["Discord.js", "Node.js", "MongoDB", "Express", "Redis"],
       "features": [
         "Auto-moderation with customizable filters",
         "Comprehensive logging system",
         "Role management and permissions",
-        "Custom command system"
+        "Custom command system",
+        "Ticket system",
+        "Announcement scheduler",
+        "Reaction roles",
+        "Music player"
       ],
       "github": "https://github.com/yourusername/moderation-bot",
-      "status": "Active"
-    },
-    {
-      "id": 3,
-      "title": "Server Management Scripts",
-      "category": "linux",
-      "description": "Collection of Bash scripts for automated server management and maintenance.",
-      "technologies": ["Bash", "Cron", "systemd", "Docker"],
-      "features": [
-        "Automated backup systems",
-        "Server monitoring and alerts",
-        "Log rotation and cleanup",
-        "Service management utilities"
+      "demo": "https://bot-demo.yourwebsite.com",
+      "documentation": "https://bot-docs.yourwebsite.com",
+      "status": "Active",
+      "startDate": "2022-06-01",
+      "endDate": null,
+      "teamSize": 2,
+      "role": "Solo Developer",
+      "images": [
+        "/path/to/project2-screenshot1.jpg",
+        "/path/to/project2-screenshot2.jpg"
       ],
-      "github": "https://github.com/yourusername/server-scripts",
-      "status": "Maintained"
+      "videoDemo": "https://youtube.com/watch?v=demo2",
+      "challenges": [
+        "Handling Discord API rate limits",
+        "Implementing efficient caching",
+        "Creating user-friendly configuration"
+      ],
+      "achievements": [
+        "Deployed on 500+ servers",
+        "Processed 1M+ messages daily",
+        "99.9% uptime maintained"
+      ]
     }
   ],
   "workedServers": [
@@ -104,79 +227,243 @@
       "id": 1,
       "name": "HyperCraft Network",
       "logo": "/path/to/hypercraft-logo.png",
+      "website": "https://hypercraft.net",
       "role": "Lead Developer",
       "period": "2023 - Present",
+      "startDate": "2023-01-01",
+      "endDate": null,
       "playerCount": "5000+",
+      "peakPlayers": 8000,
+      "serverType": "Survival/Creative Network",
       "description": "Large survival and creative server network with custom plugins and game modes.",
-      "technologies": ["Java", "Spigot", "Redis", "MySQL"],
+      "technologies": ["Java", "Spigot", "Redis", "MySQL", "Docker"],
+      "responsibilities": [
+        "Lead a team of 5 developers",
+        "Architect server infrastructure",
+        "Develop custom plugins",
+        "Optimize server performance",
+        "Manage database systems"
+      ],
       "achievements": [
         "Developed anti-grief system reducing incidents by 80%",
         "Created custom economy plugin handling 10k+ daily transactions",
-        "Optimized server performance for 1000+ concurrent players"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "PixelRealms",
-      "logo": "/path/to/pixelrealms-logo.png",
-      "role": "Plugin Developer",
-      "period": "2022 - 2023",
-      "playerCount": "2000+",
-      "description": "Fantasy RPG Minecraft server with custom quests and progression systems.",
-      "technologies": ["Java", "Paper", "MongoDB", "Citizens API"],
-      "achievements": [
-        "Built comprehensive quest system with 200+ unique quests",
-        "Implemented custom skill progression affecting 50+ abilities",
-        "Created dungeon system with procedural generation"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "TechCraft Studios",
-      "logo": "/path/to/techcraft-logo.png",
-      "role": "System Administrator",
-      "period": "2021 - 2022",
-      "playerCount": "1500+",
-      "description": "Technical Minecraft server focused on redstone engineering and automation.",
-      "technologies": ["Java", "Spigot", "Docker", "Grafana"],
-      "achievements": [
-        "Maintained 99.8% uptime across multiple server instances",
-        "Implemented automated backup system with 30-day retention",
-        "Set up monitoring dashboard tracking 20+ server metrics"
-      ]
+        "Optimized server performance for 1000+ concurrent players",
+        "Implemented automated backup system",
+        "Reduced server costs by 40% through optimization"
+      ],
+      "testimonial": {
+        "text": "Exceptional developer who transformed our server performance and player experience.",
+        "author": "Server Owner",
+        "authorRole": "Founder"
+      }
     }
   ],
   "experience": [
     {
+      "id": 1,
       "title": "Senior Minecraft Server Developer",
       "company": "Your Server Network",
+      "location": "Remote",
+      "type": "Full-time",
       "period": "2022 - Present",
+      "startDate": "2022-03-01",
+      "endDate": null,
       "description": "Lead developer for a network of Minecraft servers with 1000+ daily players.",
+      "responsibilities": [
+        "Develop and maintain custom Minecraft plugins",
+        "Optimize server performance and scalability",
+        "Lead technical architecture decisions",
+        "Mentor junior developers",
+        "Coordinate with design and community teams"
+      ],
       "achievements": [
         "Developed custom plugins serving 10,000+ players",
         "Optimized server performance reducing lag by 60%",
-        "Implemented anti-cheat systems",
-        "Created automated deployment pipeline"
-      ]
-    },
-    {
-      "title": "Linux System Administrator",
-      "company": "Your Company",
-      "period": "2021 - Present",
-      "description": "Managing and maintaining Linux-based infrastructure for game servers.",
-      "achievements": [
-        "Maintained 99.9% uptime across 20+ servers",
-        "Automated deployment processes",
-        "Implemented security best practices",
-        "Reduced server costs by 30% through optimization"
-      ]
+        "Implemented comprehensive anti-cheat systems",
+        "Created automated deployment pipeline",
+        "Maintained 99.9% server uptime"
+      ],
+      "technologies": ["Java", "Spigot/Paper", "MySQL", "Redis", "Docker"],
+      "logo": "/path/to/company-logo.png"
     }
   ],
+  "education": [
+    {
+      "id": 1,
+      "institution": "University Name",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "location": "City, Country",
+      "startDate": "2019-09-01",
+      "endDate": "2023-05-15",
+      "gpa": "3.8/4.0",
+      "honors": ["Dean's List", "Magna Cum Laude"],
+      "relevantCourses": [
+        "Data Structures and Algorithms",
+        "Database Management Systems",
+        "Software Engineering",
+        "Computer Networks",
+        "Operating Systems"
+      ],
+      "projects": [
+        "Capstone: Distributed Gaming Server Architecture",
+        "Machine Learning Image Recognition System"
+      ],
+      "logo": "/path/to/university-logo.png"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2023-06-15",
+      "expiryDate": "2026-06-15",
+      "credentialId": "AWS-12345",
+      "verificationUrl": "https://aws.amazon.com/verification/12345",
+      "logo": "/path/to/aws-logo.png"
+    },
+    {
+      "id": 2,
+      "name": "Oracle Java SE 11 Developer",
+      "issuer": "Oracle",
+      "issueDate": "2022-11-20",
+      "expiryDate": null,
+      "credentialId": "ORACLE-67890",
+      "verificationUrl": "https://oracle.com/verification/67890",
+      "logo": "/path/to/oracle-logo.png"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Top Contributor",
+      "organization": "SpigotMC Community",
+      "date": "2023-12-01",
+      "description": "Recognized as a top contributor for helping community members and sharing knowledge",
+      "icon": "trophy"
+    },
+    {
+      "id": 2,
+      "title": "Hackathon Winner",
+      "organization": "GameDev Hackathon 2023",
+      "date": "2023-08-15",
+      "description": "First place winner for innovative Minecraft plugin development",
+      "icon": "award"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "role": "Server Owner",
+      "company": "MegaCraft Network",
+      "text": "Outstanding developer who delivered exceptional results. Their plugins increased our player retention by 45%.",
+      "rating": 5,
+      "image": "/path/to/testimonial1.jpg",
+      "date": "2023-11-15"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "role": "Community Manager",
+      "company": "PixelRealms",
+      "text": "Professional, reliable, and incredibly skilled. Made our server dreams come true.",
+      "rating": 5,
+      "image": "/path/to/testimonial2.jpg",
+      "date": "2023-10-22"
+    }
+  ],
+  "statistics": {
+    "projectsCompleted": 25,
+    "serversWorkedOn": 12,
+    "playersServed": 50000,
+    "codeCommits": 2500,
+    "issuesResolved": 800,
+    "uptimePercentage": 99.8
+  },
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native",
+      "proficiency": 100
+    },
+    {
+      "name": "Spanish",
+      "level": "Intermediate",
+      "proficiency": 70
+    }
+  ],
+  "interests": [
+    "Gaming",
+    "Open Source",
+    "Technology",
+    "Photography",
+    "Music Production",
+    "3D Modeling",
+    "Blockchain",
+    "AI/ML"
+  ],
+  "availability": {
+    "status": "Available",
+    "timezone": "UTC-5",
+    "workingHours": "9 AM - 6 PM EST",
+    "responseTime": "Within 24 hours",
+    "preferredContactMethod": "email"
+  },
+  "pricing": {
+    "hourlyRate": "$50-75",
+    "projectMinimum": "$500",
+    "currency": "USD",
+    "paymentMethods": ["PayPal", "Stripe", "Bank Transfer"],
+    "packageDeals": [
+      {
+        "name": "Basic Plugin",
+        "price": "$200-500",
+        "description": "Simple plugin with basic functionality"
+      },
+      {
+        "name": "Advanced System",
+        "price": "$500-1500",
+        "description": "Complex plugin with database integration"
+      },
+      {
+        "name": "Full Server Setup",
+        "price": "$1000-3000",
+        "description": "Complete server setup with custom features"
+      }
+    ]
+  },
+  "blog": {
+    "enabled": true,
+    "rssUrl": "https://yourblog.com/rss",
+    "featuredPosts": [
+      {
+        "title": "Building Scalable Minecraft Servers",
+        "url": "https://yourblog.com/scalable-servers",
+        "date": "2023-12-01",
+        "excerpt": "Learn how to optimize your Minecraft server for thousands of players"
+      }
+    ]
+  },
   "theme": {
-    "primaryColor": "blue",
-    "accentColor": "green",
-    "showGitHubContributions": true,
-    "showContactForm": true,
-    "enableDarkMode": true
+    "primaryColor": "purple",
+    "secondaryColor": "blue",
+    "accentColor": "emerald",
+    "darkMode": true,
+    "animations": true,
+    "showParticles": true,
+    "fontFamily": "Inter",
+    "layout": "modern"
+  },
+  "seo": {
+    "title": "Your Name - Minecraft Developer & Linux Admin",
+    "description": "Professional Minecraft server developer and Linux administrator. Specialized in custom plugins, server optimization, and Discord bots.",
+    "keywords": ["minecraft developer", "spigot plugins", "linux admin", "discord bots"],
+    "ogImage": "/path/to/og-image.jpg"
+  },
+  "analytics": {
+    "googleAnalytics": "GA-XXXXXXX",
+    "enabled": true
   }
 }
